@@ -1,0 +1,40 @@
+:root{
+    --color-brand:#819B57;
+    --color-light:#31261A;
+    --color-dark:#FAF4EA;
+}
+/*button section*/
+.button-primary{
+    cursor: pointer;
+    color: #FAF4EA;
+    background-color:var(--color-brand);
+  border: 2px  solid #819B57 ;
+border-radius: 8px;}
+.button-primary:hover{
+    color: #465929;
+    background-color: transparent;
+}
+
+.header-link{
+    color: #FAF4EA;
+
+}
+.header-link:hover{
+    color:var(--color-brand)
+}
+.hero-title{
+    color:#FAF4EA
+}
+.hero-title .accent {
+    color: #465929
+}
+.advantages{
+    background-color: var(--color-brand);
+    color: #FAF4EA;
+}
+.section-title{
+    color:#31261A
+}
+.section-title .chef-titles{
+    color:#465929
+}
